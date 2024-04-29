@@ -19,7 +19,7 @@ body {
     padding: 10px;
     background-color: rgb(245, 245, 245);
     border-radius: 10px;
-    margin: 10px;
+ 
 }
 .content1 {
     display: flex;
@@ -30,6 +30,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight:500;
     font-size: 15px;
+    cursor: pointer;
 }
 .content2  {
     text-align: center;
@@ -169,13 +170,16 @@ span {
 #position3:hover {
     transform: scale(1.2);
 }
+.content1 p:hover {
+    color:rgb(65,105,225);
+    transform: scale(1.0);
+}
 @media(max-width:520px) {
     .container {
+        flex-direction: column;
         height: 100%;
-    }
-    .hero {
-        height: auto;
+        justify-content: center;
         align-items: center;
     }
-   
+  
 }
