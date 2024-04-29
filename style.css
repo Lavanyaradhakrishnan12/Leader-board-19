@@ -140,14 +140,17 @@ body {
 .box-name {
     font-size: 13px;
     font-weight: 600;
+    color: whitesmoke;
 }
 .box-pts {
     font-size: 10px;
     font-weight: 500;
+    color: whitesmoke;
 }
 span {
     font-size: 10px;
     font-weight: 400;
+    color: whitesmoke;
 }
 .line {
     text-align: center;
@@ -163,16 +166,10 @@ span {
 #position3:hover {
     transform: scale(1.2);
 }
-/* @media(max-width:520px) {
+@media(max-width:520px) {
     .container {
-        width: 100%;
+        flex-direction: column;
         height: 100%;
-        flex-direction: column;
-    }
-    .hero {
-        width: 60%;
-        height: auto;
-        flex-direction: column;
     }
 
-} */
+}
