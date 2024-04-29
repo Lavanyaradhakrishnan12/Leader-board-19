@@ -173,5 +173,9 @@ span {
     .container {
         height: 100%;
     }
+    .hero {
+        height: auto;
+        align-items: center;
+    }
    
 }
