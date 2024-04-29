@@ -169,7 +169,7 @@ span {
 @media(max-width:520px) {
     .container {
         flex-direction: column;
-        height: 100%;
+        height: auto;
     }
 
 }
